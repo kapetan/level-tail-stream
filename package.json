@@ -1,0 +1,39 @@
+{
+  "name": "level-tail-stream",
+  "version": "0.0.0",
+  "description": "Tailable stream from levelup compliant store",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose && tape test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapetan/level-tail-stream.git"
+  },
+  "keywords": [
+    "leveldb",
+    "levelup",
+    "level",
+    "tail",
+    "live",
+    "stream",
+    "feed"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapetan/level-tail-stream/issues"
+  },
+  "homepage": "https://github.com/kapetan/level-tail-stream#readme",
+  "dependencies": {
+    "from2": "^2.3.0",
+    "stream-each": "^1.2.2",
+    "stream-iterate": "^1.2.0"
+  },
+  "devDependencies": {
+    "encoding-down": "^4.0.0",
+    "levelup": "^2.0.2",
+    "memdown": "^2.0.0",
+    "standard": "^11.0.0",
+    "tape": "^4.9.0"
+  }
+}
